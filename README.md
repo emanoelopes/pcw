@@ -1,5 +1,7 @@
-Disciplina de Programação de Cliente Web
+Programação de Cliente Web
 ========================================
 
-Aula 07
+Aula 08
 -------
+
+Utilizando forms no html e funções no js.
