@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 10</title>
+		<meta charset="utf-8" />
+		<script src="js/aula10.js"></script>
+	</head>
+	<body>
+		<h1>Aula 10</h1>
+		<form name="meuForm1">
+		<label for="pnome">Primeiro Nome:</label>
+		<input id="pnome" type="text" name="pnome" value="" id="pnome" /><br>
+		<label for="snome">Sobrenome:</label>
+		<input id="snome" type="text" name="snome" value="" /><br>
+		<button type="button" onclick="concatenarNome();">Concatenar</button>
+		<h1 id='resultado1'></h1>
+		<img id="foto" src="" alt=""></img>
+		</form>
+		<hr/>
+		<form name="meuForm2">
+		<label for="nasc">Digite o ano do seu nascimento: </label>
+		<input type="text" name="nasc" value="" id="nasc" /><br>
+		<button type="button" onclick="calcularIdade();">Calcular idade</button>
+		</form>
+		<h1 id='resultado2'></h1>
+		<hr/>
+		<form name="meuForm3">
+		<label for="peso">Qual o seu peso?</label>
+		<input type="text" name="peso" value="" id="peso" /><br>
+		<label for="altura">Qual a sua altura?</label>
+		<input type="text" name="altura" value="" id="altura" /><br>
+		<button type="button" onclick="calcularIMC();">Calcular IMC</button>
+		</form>
+		<h1 id='resultado3'></h1>
+		<hr/>
+		<center><button type="button" onclick="validaForm();">Verificar forms</button></center>
+	</body>
+</html>
