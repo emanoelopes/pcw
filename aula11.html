@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Aula 11</title>
+	<meta charset="utf-8"/>
+
+	<script src="js/aula11.js">
+	</script>
+</head>
+<body>
+
+	<form>
+		<input type="text" id="entradaVal"/> <br><br>
+		
+		<input type="button" onclick="montarExpressao(this.value);" id="btn1" value="1"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn2" value="2"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn3" value="3"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="divid" value="/" style{width: 71px/> 
+		<br><br>
+		<input type="button" onclick="montarExpressao(this.value);" id="btn4" value="4"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn5" value="5"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn6" value="6"/> 
+		<input type="button" onclick="montarExpressao(this.value);" value="-"> 
+		<br><br>
+		<input type="button" onclick="montarExpressao(this.value);" id="btn7" value="7"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn8" value="8"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="btn9" value="9"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="soma" value="+"/> 
+		<br><br>
+		
+		<input type="button" onclick="executaExpressao();" id="mult" value="*"/> 
+		<input type="reset" id="limp" value="C"/> 
+		<input type="button" onclick="montarExpressao(this.value);" id="ponto" value="."/> 
+		<input type="button" onclick="executaExpressao();" id="result" value="Resultado"/> 
+		
+		<br>
+		<br>
+		<textarea id="resultados"></textarea>
+	</form>
+		
+</body>	
+</html>
