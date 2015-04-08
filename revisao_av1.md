@@ -132,7 +132,7 @@ EVISÃO PCSW AV1
 
 25. Quais os dois outros métodos semelhantes ao getElementById() ?
 
-  *R - getElementByTag() e ...*
+  *R - getElementByTag() e getElementByName()*
 
 26. Em um formulário de name=”f” existe um textarea com id=”t” que só pode receber 255 caracteres. Escreva uma validação que satisfaça esse critério.
 
