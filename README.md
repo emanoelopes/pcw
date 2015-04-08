@@ -1,7 +1,4 @@
-Programação de Cliente Web
+Programação Cliente Web
 ========================================
 
-Aula 08
--------
-
-Utilizando forms no html e funções no js.
+Atividades realizadas na disciplina de programação do "lado cliente", no curso de Análise e Desenvolvimento de Sistemas.
