@@ -47,17 +47,19 @@ REVISÃO PCSW AV1
   *onclick - executado ao clicar no elemento.*
   *onkeyup - executado ao liberar o botão do mouse.*
   *onchange - executado quando houver modificações.*
-  *onfocus - é executado quando o mouse está sobre o elemento.*
-  *onload - é executado juntamente com o carregamento da página.*
+  *onfocus - executado quando o mouse está sobre o elemento.*
+  *onload - executado juntamente com o carregamento da página.*
 
 11. Escreva duas estruturas de repetição (diferentes) em uma contagem até 10.
 
+        a = 1;
         while(a <= 10){
           document.write(a);
+          a++;
         }
 
-        for(i=1; i <=10:i==){
-          document.write(a);
+        for(i=1; i <=10:i++){
+          document.write(i);
         }
 
 12. Escreva uma função que exiba uma alerta: “Olá mundo!”
@@ -140,4 +142,4 @@ REVISÃO PCSW AV1
 
 27. Quais as diferenças entre HTML e XML?
 
-  *R - *
+  *R - HTML é utilizada para apresentar dados, já XML é utilizada para transportar e armazenar dados.*
