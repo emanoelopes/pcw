@@ -52,35 +52,45 @@ REVISÃO PCSW AV1
 
 11. Escreva duas estruturas de repetição (diferentes) em uma contagem até 10.
 
-        a = 1;
-        while(a <= 10){
-          document.write(a);
-          a++;
-        }
+```javascript
+a = 1;
+while(a <= 10){
+  document.write(a);
+  a++;
+}
 
-        for(i=1; i <=10:i++){
-          document.write(i);
-        }
+for(i=1; i <=10:i++){
+  document.write(i);
+}
+```
 
 12. Escreva uma função que exiba uma alerta: “Olá mundo!”
 
-        function hello(){
-          document.write("Olá mundo!");
-        }
+```javascript
+function hello(){
+  document.write("Olá mundo!");
+}
+```
 
 13. Escreva um vetor Javascript com suas notas av1, av2 e av3 para duas disciplinas.
 
-        notas = [av1, av2, av3];
+```javascript
+notas = [av1, av2, av3];
+```
 
 14. Escreva um alerta que exiba a nota av2 da segunda disciplina do vetor acima.
 
-        alert(notas[1]);
+```javascript   
+alert(notas[1]);
+```
 
 15. Escreva uma função em duas linhas para abrir um Popup.
 
-      function alerta(){
-        function alert("Pop Up");
-      }
+```javascript
+function alerta(){
+    function alert("Pop Up");
+}
+```
 
 16. Qual a definição de uma classe Javascript.
 
@@ -92,15 +102,17 @@ REVISÃO PCSW AV1
 
 18. Escreva um objeto “Aeronave” com duas propriedades e dois atributos.
 
-          function Aeronave(){
-            this.modelo;
-            this.vMax;
+```javascript
+function Aeronave(){
+    this.modelo;
+    this.vMax;
 
-            tecoteco = new Aeronave();
+tecoteco = new Aeronave();
 
-            tecoteco.vMax = 500;
-            tecoteco.modelo = "jw500";
-          }
+tecoteco.vMax = 500;
+tecoteco.modelo = "jw500";
+}
+```
 
 19. Qual a definição do modelo de objeto DOM.
 
@@ -124,9 +136,11 @@ REVISÃO PCSW AV1
 
 23. Escreva uma função anônima que possua uma função que exiba uma alerta.
 
-        var somar = function(a, b){
-          alert(eval(a+b));
-        }
+```javascript
+var somar = function(a, b){
+  alert(eval(a+b));
+}
+```
 
 24. Descreva qual é o retorno do método: getElementById().
 
@@ -138,18 +152,20 @@ REVISÃO PCSW AV1
 
 26. Em um formulário de name=”f” existe um textarea com id=”t” que só pode receber 255 caracteres. Escreva uma validação que satisfaça esse critério.
 
-        <script>
-        
-        function valida('t'){
-               if (t.value.length > 255) {
-                   return false;
-               }
-        }
-        
-        </script>
-        <form name="f">
-        <textarea id="t" cols="60" rows="5" onkeypress="valida()"></textarea>
-        </form>
+```javascript
+<script>
+
+function valida('t'){
+       if (t.value.length > 255) {
+           return false;
+       }
+}
+
+</script>
+<form name="f">
+<textarea id="t" cols="60" rows="5" onkeypress="valida()"></textarea>
+</form>
+```
   
 
 27. Quais as diferenças entre HTML e XML?
