@@ -54,6 +54,7 @@ EVISÃO PCSW AV1
 
         while(a <= 10){
           document.write(a);
+            a++;
         }
 
         for(i=1; i <=10:i==){
