@@ -138,7 +138,19 @@ REVISÃO PCSW AV1
 
 26. Em um formulário de name=”f” existe um textarea com id=”t” que só pode receber 255 caracteres. Escreva uma validação que satisfaça esse critério.
 
-  *R - *
+        <script>
+        
+        function valida('t'){
+               if (t.value.length > 255) {
+                   return false;
+               }
+        }
+        
+        </script>
+        <form name="f">
+        <textarea id="t" cols="60" rows="5" onkeypress="valida()"></textarea>
+        </form>
+  
 
 27. Quais as diferenças entre HTML e XML?
 
