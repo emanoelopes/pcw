@@ -1,16 +1,17 @@
 <html>
 <head>
 	<title>Gera Lista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<script src="js/geralista.js"></script>
 </head>
 <body>
         <h1>Gera lista</h1>
-        <h2>Digite um número e obtenha uma lista dos próximos dez números incrementados em 2.</h2>
-        <form>
+        <p>Digite um número e obtenha uma lista dos próximos dez números incrementados em 2.</p>
+        <form class="form-inline">
             <div class="form-group">
-		<input type="text" class="form-control" id="a"/> 
+		<input type="text" class="form-control" id="a" placeholder="Digite um número" autofocus /> 
         <button type="submit" class="btn btn-default" onclick="geralista();" id="btn1">Gerar</button>
             </div>
 	</form>
