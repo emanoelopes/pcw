@@ -2,40 +2,40 @@
 <bolsistas>
   <bolsista>
     <nome>Gerson</nome>
-    <email>gerson.sr13@gmail.com</email>
-    <telefone>89548234</telefone>
+    <email>gersonr13@gmail.com</email>
+    <telefone>89234</telefone>
     <bolsa>PRAE</bolsa>
     <horario>8-12</horario>
     <dias>2,4,6</dias>
   </bolsista>
   <bolsista>
     <nome>Manuela</nome>
-    <email>manuelanobre29@gmail.com</email>
-    <telefone>96563694</telefone>
+    <email>manbre29@gmail.com</email>
+    <telefone>962342694</telefone>
     <bolsa>STI</bolsa>
     <horario>18-22</horario>
     <dias>2,4,6</dias>
   </bolsista>
   <bolsista>
     <nome>Paulo Eduardo</nome>
-    <email>pauloedu.bs@gmail.com</email>
-    <telefone>97495074</telefone>
+    <email>pauloes@gmail.com</email>
+    <telefone>9742342</telefone>
     <bolsa>STI</bolsa>
     <horario>18-22</horario>
     <dias>3,5,6</dias>
   </bolsista>
   <bolsista>
     <nome>Pedro Igor</nome>
-    <email>labinfopigor@gmail.com</email>
-    <telefone>86614948</telefone>
+    <email>lagor@gmail.com</email>
+    <telefone>82364948</telefone>
     <bolsa>STI</bolsa>
     <horario>16-22</horario>
     <dias>2,4</dias>
   </bolsista>
   <bolsista>
     <nome>Raylene</nome>
-    <email>labinforaylene@gmail.com</email>
-    <telefone>99960617</telefone>
+    <email>labinfoe@gmail.com</email>
+    <telefone>999623480</telefone>
     <bolsa>PRAE</bolsa>
     <horario>13-19</horario>
     <dias>3,5</dias>
