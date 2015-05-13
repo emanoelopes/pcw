@@ -1,14 +1,6 @@
 <?xml-stylesheet type="text/xsl" href="xsl/bolsistas.xsl"?>
 <bolsistas>
   <bolsista>
-    <nome>Gerson</nome>
-    <email>gersonr13@gmail.com</email>
-    <telefone>89234</telefone>
-    <bolsa>PRAE</bolsa>
-    <horario>8-12</horario>
-    <dias>2,4,6</dias>
-  </bolsista>
-  <bolsista>
     <nome>Manuela</nome>
     <email>manbre29@gmail.com</email>
     <telefone>962342694</telefone>
@@ -39,5 +31,13 @@
     <bolsa>PRAE</bolsa>
     <horario>13-19</horario>
     <dias>3,5</dias>
+  </bolsista>
+    <bolsista>
+    <nome>Gerson</nome>
+    <email>gersonr13@gmail.com</email>
+    <telefone>89234</telefone>
+    <bolsa>PRAE</bolsa>
+    <horario>8-12</horario>
+    <dias>2,4,6</dias>
   </bolsista>
 </bolsistas>

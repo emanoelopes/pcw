@@ -17,7 +17,7 @@
 -->
 <html>
 <body>
-<h2>Boslistas do LabInfo</h2>
+<h2>Bolsistas do LabInfo</h2>
 <table border="1">
 <tr bgcolor="#9acd32">
 <th>Nome</th>
@@ -33,28 +33,29 @@
                     todo elemento XML de um conjunto de nós específico
 
 -->
-<xsl:for-each select="bolsistas/bolsista">
-<tr>
-<td>
-<xsl:value-of select="nome"/>
-</td>
-<td>
-<xsl:value-of select="email"/>
-</td>
-<td>
-<xsl:value-of select="bolsa"/>
-</td>
-<td>
-<xsl:value-of select="dias"/>
-</td>
-<td>
-<xsl:value-of select="horario"/>
-</td>
-<td>
-<xsl:value-of select="dias"/>
-</td>
-</tr>
-</xsl:for-each>
+<xsl:sort select="bolsistas/bolsista" />
+	<xsl:for-each select="bolsistas/bolsista">
+	<tr>
+	<td>
+	<xsl:value-of select="nome"/>
+	</td>
+	<td>
+	<xsl:value-of select="email"/>
+	</td>
+	<td>
+	<xsl:value-of select="bolsa"/>
+	</td>
+	<td>
+	<xsl:value-of select="dias"/>
+	</td>
+	<td>
+	<xsl:value-of select="horario"/>
+	</td>
+	<td>
+	<xsl:value-of select="dias"/>
+	</td>
+	</tr>
+	</xsl:for-each>
 </table>
 </body>
 </html>
