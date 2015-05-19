@@ -3,9 +3,26 @@
 <head>
 	<title>Aluno</title>
 	<meta charset="utf=8"/>
-	<script src="js/aluno.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="js/aluno.js"></script>
+    <style> #div_oculta{display: none;}</style>
 </head>
 <body>
-	<h1>Aluno</h1>
+        <h1>Aluno</h1>
+        <form name="form_aluno">
+                <label>Nome Completo</label>
+                <input name="nomecompleto" id="nomecompleto" value="" autofocus/><br/>
+                <label>Nota de AV1</label>
+                <input name="av1" id="av1" value="" /><br>
+                <label>Nota de AV2</label>
+                <input name="av2" id="av2" value="" /><br>
+                <input type="button" value="verificar" onclick="verificaAV1eAV2();"/>
+                <p id="resultado1"></p>
+                <div id="div_oculta">
+                        <hr /><label>Nota de AV3</label>
+                        <input name="av3" id="av3" value="" /> <br>
+                        <input type="button" value="verificar" onclick="verificaAV3();" />
+                </div>
+        </form>
 </body>
 </html>

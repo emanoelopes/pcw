@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>JSON</title>
+	<meta charset="utf-8"/>
+	<script type="text/javascript">
+		function Class_tabela(json){
+		//Atributo
+			this.border = 1;
+		//Método
+			this.montatabela = function() {
+				tabela = '<tabela border="'+this.border+'">';
+				for (i in json)
+				{
+						tabela += '<tr>';
+						tabela += '<td>' + json[i].col1 + '</td>';
+						tabela += '</tr>';
+				}
+				tabela += '</tabela>';
+				return tabela;
+			}
+		}
+		window.onload = function(){
+			var my_tabela = new Class_tabela(json_mycars);
+			document.getElementById('tabela_01').innerHTML = my_tabela.montatabela();
+		}
+		//JSON - Java Script Object Notation
+		var json_mycars = [
+			{col1: 'Fabricante'},
+			{col1:'Volks'},
+			{col1:'Chevrolet'},
+			{col1:'BMW'},
+			{col1:'Ford'},
+			{col1:'Fiat'},
+			{col1:'Audi'}
+		];
+		console.log(json_mycars[0]);
+	</script>
+</head>
+<body>
+<table id="tabela_01"></table>
+</body>	
+</html>

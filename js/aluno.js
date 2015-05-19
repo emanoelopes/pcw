@@ -7,22 +7,34 @@ function Aluno(notaAv1, notaAv2, notaAv3){
 		av1 = (av1 < 4) ? 0 : av1; 
 		av2 = (av2 < 4) ? 0 : av2;
 		media = (av1 + av2)/2;
-		if((media) >= 4){
+		if((av1+av2) >= 4){
 			if(media >= 6){
-					document.write("M√©dia: " + media + "Aprovado");
+					resultado = 'M√dia='+media+" Aprovado";
+                    divoculta = document.getElementById('div_oculta');
+                    divoculta.style.display = 'none';
+                    prompt('Voc√ est√ aprovado. Ainda assim, deseja fazer AV3?');
 			} else {
-					document.write("M√©dia: " + media + "Fazer AV3");
-			} else {
-				document.write("reprovado");
-		}
-	}
+	            divoculta = document.getElementById('div_oculta');
+                divoculta.style.display = 'block';
+                resultado = 'M√dia= '+media+ ' Precisa fazer AV3';
+            }
+	}else{
+            resultado = "REPROVADO";
+            divoculta = document.getElementById('div_oculta');
+            divoculta.style.display = 'none';
 }
+return resultado;
 }
-var aluno = new Aluno();
-	
-	aluno.av1 = 4;
-	aluno.av2 = 6;
-	aluno.nomeCompleto ="Emanoel";
-	aluno.obs = "Aluno de pcsw"; //Atributo exclusivo.
-	aluno.mediaAv1Av2(aluno.av1, aluno.av2);
-	
+};
+
+function verificaAV1eAV2(){
+    nomecompleto = document.getElementById('nomecompleto');
+    av1 = document.getElementById('av1');
+    av2 = document.getElementById('av2');
+    resultado1 = document.getElementById('resultado1');
+    var emanoel = new Aluno();
+    emanoel.nomeCompleto = nomecompleto.value;
+    emanoel.av1 = eval(av1.value); 
+    emanoel.av2 = eval(av2.value);
+    resultado1.innerHTML = emanoel.nomeCompleto + ' - ' + emanoel.mediaAv1Av2(emanoel.av1,emanoel.av2);
+}    
