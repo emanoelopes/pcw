@@ -1,0 +1,43 @@
+<?xml-stylesheet type="text/xsl" href="xsl/bolsistas.xsl"?>
+<bolsistas>
+  <bolsista>
+    <nome>Manuela</nome>
+    <email>manbre29@gmail.com</email>
+    <telefone>962342694</telefone>
+    <bolsa>STI</bolsa>
+    <horario>18-22</horario>
+    <dias>2,4,6</dias>
+  </bolsista>
+  <bolsista>
+    <nome>Paulo Eduardo</nome>
+    <email>pauloes@gmail.com</email>
+    <telefone>9742342</telefone>
+    <bolsa>STI</bolsa>
+    <horario>18-22</horario>
+    <dias>3,5,6</dias>
+  </bolsista>
+  <bolsista>
+    <nome>Pedro Igor</nome>
+    <email>lagor@gmail.com</email>
+    <telefone>82364948</telefone>
+    <bolsa>STI</bolsa>
+    <horario>16-22</horario>
+    <dias>2,4</dias>
+  </bolsista>
+  <bolsista>
+    <nome>Raylene</nome>
+    <email>labinfoe@gmail.com</email>
+    <telefone>999623480</telefone>
+    <bolsa>PRAE</bolsa>
+    <horario>13-19</horario>
+    <dias>3,5</dias>
+  </bolsista>
+    <bolsista>
+    <nome>Gerson</nome>
+    <email>gersonr13@gmail.com</email>
+    <telefone>89234</telefone>
+    <bolsa>PRAE</bolsa>
+    <horario>8-12</horario>
+    <dias>2,4,6</dias>
+  </bolsista>
+</bolsistas>
