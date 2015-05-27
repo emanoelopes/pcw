@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<channel>
+	<title>Usuários do LabInfo FEAAC</title>
+	<link>http://www.feaac.ufc.br</link>
+	<description>Usuários do Laboratório de Informática da FEAAC BD3</description>
+	<language>pt-br</language>
+
+	<usuario>
+		<nome>Samara</nome>
+		<matricula>376744</matricula>
+		<curso>Secretariado Executivo</curso>
+        <entrada>8:00</entrada>
+        <saida>9:00</saida>
+	</usuario>
+
+	<usuario>
+		<nome>Igor</nome>
+		<matricula>366239</matricula>
+		<curso>Administração</curso>
+        <entrada>8:40</entrada>
+        <saida>9:00</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Pedro Lucas</nome>
+		<matricula>362679</matricula>
+		<curso>Ciências Contábeis</curso>
+        <entrada>8:50</entrada>
+        <saida>9:30</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Ronaldo</nome>
+		<matricula>139122</matricula>
+		<curso>Administração</curso>
+        <entrada>8:40</entrada>
+        <saida>9:00</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Helga</nome>
+		<matricula>366799</matricula>
+		<curso>Administração</curso>
+        <entrada>9:15</entrada>
+        <saida>9:45</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Rivando</nome>
+		<matricula>234650</matricula>
+		<curso>Ciências Contábeis</curso>
+        <entrada>9:30</entrada>
+        <saida>10:00</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Marília Alves</nome>
+		<matricula>349648</matricula>
+		<curso>Ciências Contábeis</curso>
+        <entrada>10:40</entrada>
+        <saida>11:00</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Bruna Pontes</nome>
+		<matricula>334968</matricula>
+		<curso>Ciências Contábeis</curso>
+        <entrada>10:50</entrada>
+        <saida>11:50</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Daniele</nome>
+		<matricula>362174</matricula>
+		<curso>Administração</curso>
+        <entrada>11:05</entrada>
+        <saida>12:00</saida>
+	</usuario>
+    
+    <usuario>
+		<nome>Olavo</nome>
+		<matricula>0321312</matricula>
+		<curso>Administração</curso>
+        <entrada>16:50</entrada>
+        <saida>18:00</saida>
+	</usuario>
+
+</channel>
