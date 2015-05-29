@@ -1,0 +1,26 @@
+﻿<html lang="pt-br">
+<head>
+  <title>Usuários do Laboratório de Informática</title>
+  <meta charset="utf-8"/>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/usuarios.js"></script>
+
+    </head>
+    <body>
+      <div id="topo" align="center"><h1>Usuários do LabInfo</h1>
+        <form class="form-inline">
+          <label for="matricula">Matrícula:
+             <input id="matricula" class="form-control" name="busca" onkeyup="funcBusca(this.value);" value="" placeholder="Digite algo" autofocus/>
+         </label>
+     </form>
+ </div>
+ <div id="resultado" align="center"></div>
+</body>
+</html>

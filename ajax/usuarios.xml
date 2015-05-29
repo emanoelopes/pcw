@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
-<channel>
+<usuarios>
 	<title>Usuários do LabInfo FEAAC</title>
 	<link>http://www.feaac.ufc.br</link>
 	<description>Usuários do Laboratório de Informática da FEAAC BD3</description>
@@ -86,4 +86,4 @@
         <saida>18:00</saida>
 	</usuario>
 
-</channel>
+</usuarios>
