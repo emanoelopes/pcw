@@ -1,0 +1,46 @@
+﻿<html>
+	<head>
+		<title>RegEx</title>
+		<style>
+			label{width: 140px; display: inline-table;}
+			input{margin-bottom: 5px;}
+		</style>
+		<script src="../regex.js"></script>
+	</head>
+	<body>
+		<form onsubmit="return validaForm();" name="form1" method="post" action="">
+			<label>Nome:</label>
+			<input type="text" name="nome" /><br />
+
+			<label>E-Mail:</label>
+			<input required title="Exemplo: emanoel@emanoel.pro.br" type="email" pattern="^([0-9a-zA-Z]+([_.-]?[0-9a-zA-Z]+)*@[0-9a-zA-Z]+[0-9,a-z,A-Z,.,-]*(.){1}[a-zA-Z]{2,4})+$"name="email" /><br />
+
+			<label>Idade:</label>
+			<input required type="number" min="18" max="70" name="idade" /><br />
+
+			<label>Endereço:</label>
+			<input type="text" name="endereco" /><br />
+
+			<label>Telefone:</label>
+			<input type="text" name="telefone" /><br />
+
+			<label>Data nascimento:</label>
+			<input type="text" name="data" /><br />
+
+			<label>Senha:</label>
+			<input type="password" name="senha" /><br />
+
+			<label>Confirme de Senha:</label>
+			<input type="password" name="senha2" /><br />
+
+			<strong>Sexo:</strong>
+			<input type="radio" name="sexo" value="m" />
+			<label>Masculino:</label>
+			<input type="radio" name="sexo" value="f" />
+			<label>Feminino:</label>
+
+			<br />
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
+</html>
