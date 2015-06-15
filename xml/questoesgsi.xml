@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<perguntas>
+  <pergunta>
+    <enunciado>Qual do melhor conceito de "Risco" quando relacionado com a Segurança da Informação:</enunciado>
+    <resposta>Probabilidade de uma ameaça explorar uma vulnerabilidade</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Você trabalha na área de segurança da sua empresa e com objetivo de reduzir os riscos na área de Banco de Dados, pretende instalar dispositivos de autenticação de acesso físico, que será implementado através de dispositivo biométrico. Neste caso que tipo de barreira você está implementando?</enunciado>
+    <resposta>Dificultar</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado> Qual o nome do processo malicioso que tem o intuito de infectar uma ou várias máquinas e utilizá-las posteriormente como máquinas para destinar um ataque que seja o alvo do atacante ?</enunciado>
+    <resposta>Bot/Botnet</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Qual o nome do ataque que o objetivo de "forjar" uma página falsa de um site verdadeiro com o intuito de obter informações pessoais de usuários de sites da Internet ou site corporativo ?</enunciado>
+    <resposta>Phishing</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado> Você trabalha na gestão de risco de sua empresa e verificou que o custo de proteção contra um determinado risco está muito além das possibilidades da organização e portanto não vale a pena tratá-lo. Neste caso você:</enunciado>
+    <resposta>Aceita o risco</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Qual o nome do ataque ou maneira de fazer propaganda por meio digitais através de instalação de jogos, aplicativos e softwares ?</enunciado>
+    <resposta>Adware</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>A norma NBR ISO/IEC 27002 é um Código de Prática para a Gestão de Segurança da Informação, que tem como objetivo "estabelecer diretrizes e princípios gerais para iniciar, implementar, manter e melhorar a gestão de segurança da informação em uma organização". Ela se baseia no tripé: Análise de Risco, Requisitos do Negócio e Requisitos Legais. Podemos definir como Requisitos do Negócio:</enunciado>
+    <resposta>É o conjunto de princípios e objetivos para o processamento da informação que uma organização tem que desenvolver para apoiar suas operações.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Um Firewall pode ser definido como uma coleção de componentes, colocada entre duas redes, que coletivamente possua propriedades que:</enunciado>
+    <resposta>garantem que todo o tráfego de dentro para fora da rede, e vice-versa, passe por ele. Somente o tráfego autorizado pela política de segurança pode atravessar o firewall e, finalmente, ele deve ser à prova de violação.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Qual a norma que referente a gestão de Risco dentro da Família ISO/IEC 27000 ?</enunciado>
+    <resposta>ISO/IEC 27005</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>O que apresenta o documento integrante da Política de Segurança da Informação onde são especificados no plano tático, as escolhas tecnológicas e os controles que deverão ser implementados para alcançar a estratégia definida nas diretrizes?</enunciado>
+    <resposta>Normas</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>De acordo com as normas ABNT NBR 27001, 27002 e 27005, o documento da política de segurança da informação deve:</enunciado>
+    <resposta>ser aprovado pela direção, bem como publicado e comunicado para todos que tenham contato com a organização.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Não se pode dizer que há segurança da informação, a menos que ela seja controladae gerenciada. A segurança da informação é um processo que visa minimizar os riscos a níveis aceitáveis. Um Sistema de Gerenciamento de Segurança da Informação (SGSI), é uma série de ações tomadas com o objetivo de gerenciar a segurança da informação, incluindo pessoas, infraestrutura e negócios, reduzindo os riscos a um nível aceitável, enquanto mantém em perspectiva os objetivos do negócio e as expectativas do cliente.Para estabelecer o SGSI- SISTEMA DE GESTÃO DE SEGURANÇA DA INFORMAÇÃO - a organização deve inicialmente definir:</enunciado>
+    <resposta>Identificar, Analisar e avaliar os riscos.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Porque as organizações devem realizar auditorias internas do SGSI em intervalos regulares?</enunciado>
+    <resposta>Para determinar se os objetivos de controle, processos e procedimentos atendem aos requisitos da norma NBR ISO/IEC 27001.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Quando devem ser executadas as ações corretivas?</enunciado>
+    <resposta>Devem ser executadas para eliminar as causas da não-conformidade com os requisitos do SGSI de forma a evitar a sua repetição</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>A organização deve executar ações para melhorar continuamente a eficácia do SGSI. Estas ações ocorrem através: do uso da política de segurança, dos objetivos de segurança, resultados de auditorias, da análise dos eventos monitorados e através de ações:</enunciado>
+    <resposta>Corretivas e Preventivas</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>A empresa XPTO optou como forma de complementar seu projeto de Segurança da Informação, a instalação de camêras de vídeo, sendo algumas falsas, e a utilização de avisos da existência de alarmes, neste caso qual o tipo de proteção que está sendo utilizada?</enunciado>
+    <resposta>Desencorajamento</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>A certificação de organizações que implementaram a NBR ISO/IEC 27001 é um meio de garantir que a organização certificada:</enunciado>
+    <resposta>implementou um sistema para gerência da segurança da informação de acordo com os padrões e melhores práticas de segurança reconhecidas no mercado.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Na implantação da Gestão de Continuidade de Negócios. É importante que a GCN esteja no nível mais alto da organização para garantir que:</enunciado>
+    <resposta>As metas e objetivos definidos não sejam comprometidos por interrupções inesperadas.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Um plano de contingência se situa no contexto dos resultados da criação de uma estrutura de gestão e numa estrutura de gerenciamento de incidentes, continuidade de negócios e planos de recuperação de negócios que detalhem os passos a serem tomados durante e após um incidente para manter ou restaurar as operações.</enunciado>
+    <resposta>Desenvolvendo e implementando uma resposta de GCN.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Por que as melhores práticas orientam sobre a importância de que a Gestão de Continuidade de Negócio (GCN) esteja no nível mais alto da organização?</enunciado>
+    <resposta>Para garantir que as metas e objetivos definidos não sejam comprometidos por interrupções inesperadas.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>De acordo com as normas NBR 15999 e ABNT NBR 15999-2, assinale a opção correta acerca da gestão de continuidade do negócio (GCN).</enunciado>
+    <resposta>A análise de impacto no negócio resulta em melhor entendimento acerca dos produtos, serviços e(ou) atividades críticas e recursos de suporte de uma organização.</resposta>
+  </pergunta>
+
+  <pergunta>
+      <enunciado>Maria trabalha na filial de São Paulo da empresa ABC e necessita transmitir um arquivo para Pedro que trabalha na filial de Belém. Após receber o arquivo transmitido por Maria, Pedro verificou que o arquivo possuia um tamanho maior do que quando Maria iniciou a transmissão. Neste estava houve uma falha na segurança da informação relacionada à:</enunciado>
+      <resposta>Integridade.</resposta>
+  </pergunta>
+
+  <pergunta>
+      <enunciado>Quais as fases da implementação da continuidade de negócio nas organizações ?</enunciado>
+      <resposta>Planejamento, desenvolvimento e implementação do programa.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Você trabalha na área de administração de rede está percebendo que a rede tem apresentado um comportamento diferente do normal. Você desconfia que possam estar ocorrendo ataques a alguns servidores, e precisa utilizar alguma ferramenta para realizar o levantamento periódico do que está ocorrendo no tráfego da rede. Neste caso você irá utilizar:</enunciado>
+    <resposta>Um detector de intrusão para realizar a análise do tráfego da rede.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Quando tratamos de Criptografia de Chave Assimétrica ou pública está incorreto:</enunciado>
+    <resposta>A Chave Publica não pode ser divulgada livremente, somente a Chave Privada.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Você trabalha na área de administração de rede e para aumentar as medidas de segurança já implementadas pretende controlar a conexão a serviços da rede de um modo indireto, ou seja, impedindo que os hosts internos e externos se comuniquem diretamente. Neste caso você optará por implementar :</enunciado>
+    <resposta>Um servidor proxy</resposta>
+  </pergunta>
+
+
+  <pergunta>
+    <enunciado>Uma empresa teve a sua sala de servidores incendiadas e com isso perdeu todos os dados importantes para a empresa, mas ela estava preparada para a continuidade dos negócios, o que você acha que foi importante para a recuperação destes dados:</enunciado>
+    <resposta>Na empresa haviam Backups ou cópias de segurança que são itens muito importantes na administração de sistemas devendo fazer parte da rotina de operação dos sistemas da organização, através de uma política pré-determinada.</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Entre os diversos mecanismos de segurança o firewall é muito utilizado pelas organizações. Podem ser classificados em diferentes tipos. Qual das opções abaixo apresenta o tipo de Firewall que permite executar a conexão ou não a um serviço em uma rede modo indireto ?</enunciado>
+    <resposta>Firewall Proxy</resposta>
+  </pergunta>
+
+  <pergunta>
+    <enunciado>Você está trabalhando em um projeto de rede para a empresa XPTO. A empresa pretende implantar um servidor de banco de dados somente para consulta dos usuários internos da organização. Em qual tipo de rede você localizaria este servidor considerando que você irá utilizar o conceito de perímetro de segurança?</enunciado>
+    <resposta>na rede interna da organização</resposta>
+  </pergunta>
+</perguntas>
