@@ -1,7 +1,7 @@
 Programação Cliente Web
 =======================
 
-Atividades realizadas na disciplina de Programação Cliente Web, do curso de Análise e Desenvolvimento de Sistemas FIC/Estácio.
+Atividades realizadas na disciplina de Programação Cliente Web, do curso de Análise e Desenvolvimento de Sistemas FIC/Estácio, [Prof. Márcio Brasil](https://github.com/mbrasilce).
 
 Atividade XHTML
 ===============
